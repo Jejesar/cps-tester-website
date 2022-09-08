@@ -36,7 +36,7 @@ function App() {
 
   return (
     <>
-      <h1>Click test {seconds}</h1>
+      <h1>Click test {seconds > 0 ? seconds : ""}</h1>
       <button onClick={() => handleClick()}>{innerButton}</button>
       <br />
       <button className="reset" onClick={() => reset()}>
