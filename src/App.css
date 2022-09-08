@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Fredoka", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #265c4b;
+  margin-bottom: 10px;
+}
+
+button {
+  cursor: pointer;
+  border: 2px solid rgba(38, 92, 75, 0.5);
+  border-radius: 10px;
+  color: #265c4b;
+  background-color: #8fc1b5;
+  min-width: 300px;
+  width: 50vw;
+  height: 200px;
+  font-size: 1.5rem;
+}
+
+/* button:hover {
+  background-color: black;
+} */
+
+button:active {
+  background-color: #9cc9be;
+}
+
+button.reset {
+  background-color: #c0dad3;
+  color: #00352e;
+  border: 2px solid rgba(0, 53, 46, 0.5);
+  height: 50px;
+  margin: 20px auto 0 auto;
+}
+button.reset:active {
+  background-color: #cedad6;
+}
+
+/* Color Theme Swatches in Hex */
+.CR---Shades-of-Teal-1-hex {
+  color: #265c4b;
+}
+.CR---Shades-of-Teal-2-hex {
+  color: #146551;
+}
+.CR---Shades-of-Teal-3-hex {
+  color: #007566;
+}
+.CR---Shades-of-Teal-4-hex {
+  color: #589a8d;
+}
+.CR---Shades-of-Teal-5-hex {
+  color: #8fc1b5;
+}
